@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the accompanying paper and this repository."
+title: "floquet-qudit-strong-driving: code for 'Formalism for Floquet Engineering d-level Systems using Strong Driving'"
+authors:
+  - family-names: Scott
+    given-names: Ryan
+  - family-names: Scarola
+    given-names: Vito W.
+license: MIT
+repository-code: "https://github.com/scarola/floquet-qudit-strong-driving"
+preferred-citation:
+  type: article
+  title: "Formalism for Floquet Engineering d-level Systems using Strong Driving"
+  authors:
+    - family-names: Scott
+      given-names: Ryan
+    - family-names: Scarola
+      given-names: Vito W.
+  journal: arxivXXX
+  year: 2026

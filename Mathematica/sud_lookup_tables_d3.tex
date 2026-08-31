@@ -1,0 +1,165 @@
+% d=3 commutator lookup tables (S.A.D. basis), auto-generated.
+
+% Diagonal inputs H^{1n}; convention [[T^a,T^b]]_u = 2^{-lambda} phi^{(p)} 2^{-(u-1)nu} T^{kappa_p}.
+
+\begin{table}[h]
+\centering
+\caption{$d=3$ same-support channels.}
+\label{tab_d3_same_support}
+\scriptsize
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{|l|l|c|c|l|l|}
+\hline
+$\alpha$ & $\beta$ & $\lambda$ & $\nu$ & $(\kappa_{\mathrm o},\phi^{(\mathrm o)})$ & $(\kappa_{\mathrm e},\phi^{(\mathrm e)})$ \\
+\hline
+(S,1,2) & (A,1,2) & $0$ & $0$ & $(H,1,2),\,-i$ & $(A,1,2),\,+1$ \\
+\hline
+(S,1,3) & (A,1,3) & $0$ & $0$ & $(H,1,3),\,-i$ & $(A,1,3),\,+1$ \\
+\hline
+(S,2,3) & (A,2,3) & $0$ & $0$ & $(H,2,3),\,-i$ & $(A,2,3),\,+1$ \\
+\hline
+(S,1,2) & (H,1,2) & $0$ & $0$ & $(A,1,2),\,+i$ & $(H,1,2),\,+1$ \\
+\hline
+(S,1,3) & (H,1,3) & $0$ & $0$ & $(A,1,3),\,+i$ & $(H,1,3),\,+1$ \\
+\hline
+(A,1,2) & (S,1,2) & $0$ & $0$ & $(H,1,2),\,+i$ & $(S,1,2),\,+1$ \\
+\hline
+(A,1,3) & (S,1,3) & $0$ & $0$ & $(H,1,3),\,+i$ & $(S,1,3),\,+1$ \\
+\hline
+(A,2,3) & (S,2,3) & $0$ & $0$ & $(H,2,3),\,+i$ & $(S,2,3),\,+1$ \\
+\hline
+(A,1,2) & (H,1,2) & $0$ & $0$ & $(S,1,2),\,-i$ & $(H,1,2),\,+1$ \\
+\hline
+(A,1,3) & (H,1,3) & $0$ & $0$ & $(S,1,3),\,-i$ & $(H,1,3),\,+1$ \\
+\hline
+(H,1,2) & (S,1,2) & $0$ & $0$ & $(A,1,2),\,-i$ & $(S,1,2),\,+1$ \\
+\hline
+(H,1,3) & (S,1,3) & $0$ & $0$ & $(A,1,3),\,-i$ & $(S,1,3),\,+1$ \\
+\hline
+(H,1,2) & (A,1,2) & $0$ & $0$ & $(S,1,2),\,+i$ & $(A,1,2),\,+1$ \\
+\hline
+(H,1,3) & (A,1,3) & $0$ & $0$ & $(S,1,3),\,+i$ & $(A,1,3),\,+1$ \\
+\hline
+\end{tabular}
+\end{table}
+
+\begin{table}[h]
+\centering
+\caption{$d=3$ one-overlap channels with diagonal input $\alpha$.}
+\label{tab_d3_diag_alpha}
+\scriptsize
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{|l|l|c|c|l|l|}
+\hline
+$\alpha$ & $\beta$ & $\lambda$ & $\nu$ & $(\kappa_{\mathrm o},\phi^{(\mathrm o)})$ & $(\kappa_{\mathrm e},\phi^{(\mathrm e)})$ \\
+\hline
+(H,1,2) & (S,1,3) & $1$ & $1$ & $(A,1,3),\,-i$ & $(S,1,3),\,+1$ \\
+\hline
+(H,1,2) & (S,2,3) & $1$ & $1$ & $(A,2,3),\,+i$ & $(S,2,3),\,+1$ \\
+\hline
+(H,1,3) & (S,1,2) & $1$ & $1$ & $(A,1,2),\,-i$ & $(S,1,2),\,+1$ \\
+\hline
+(H,1,3) & (S,2,3) & $1$ & $1$ & $(A,2,3),\,-i$ & $(S,2,3),\,+1$ \\
+\hline
+(H,1,2) & (A,1,3) & $1$ & $1$ & $(S,1,3),\,+i$ & $(A,1,3),\,+1$ \\
+\hline
+(H,1,2) & (A,2,3) & $1$ & $1$ & $(S,2,3),\,-i$ & $(A,2,3),\,+1$ \\
+\hline
+(H,1,3) & (A,1,2) & $1$ & $1$ & $(S,1,2),\,+i$ & $(A,1,2),\,+1$ \\
+\hline
+(H,1,3) & (A,2,3) & $1$ & $1$ & $(S,2,3),\,+i$ & $(A,2,3),\,+1$ \\
+\hline
+\end{tabular}
+\end{table}
+
+\begin{table}[h]
+\centering
+\caption{$d=3$ one-overlap channels with diagonal target $\beta$.}
+\label{tab_d3_diag_beta}
+\scriptsize
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{|l|l|c|c|l|l|}
+\hline
+$\alpha$ & $\beta$ & $\lambda$ & $\nu$ & $(\kappa_{\mathrm o},\phi^{(\mathrm o)})$ & $(\kappa_{\mathrm e},\phi^{(\mathrm e)})$ \\
+\hline
+(S,1,2) & (H,1,3) & $1$ & $0$ & $(A,1,2),\,+i$ & $(H,1,2),\,+1$ \\
+\hline
+(S,1,3) & (H,1,2) & $1$ & $0$ & $(A,1,3),\,+i$ & $(H,1,3),\,+1$ \\
+\hline
+(S,2,3) & (H,1,2) & $1$ & $0$ & $(A,2,3),\,-i$ & $(H,2,3),\,-1$ \\
+\hline
+(S,2,3) & (H,1,3) & $1$ & $0$ & $(A,2,3),\,+i$ & $(H,2,3),\,+1$ \\
+\hline
+(A,1,2) & (H,1,3) & $1$ & $0$ & $(S,1,2),\,-i$ & $(H,1,2),\,+1$ \\
+\hline
+(A,1,3) & (H,1,2) & $1$ & $0$ & $(S,1,3),\,-i$ & $(H,1,3),\,+1$ \\
+\hline
+(A,2,3) & (H,1,2) & $1$ & $0$ & $(S,2,3),\,+i$ & $(H,2,3),\,-1$ \\
+\hline
+(A,2,3) & (H,1,3) & $1$ & $0$ & $(S,2,3),\,-i$ & $(H,2,3),\,+1$ \\
+\hline
+\end{tabular}
+\end{table}
+
+\begin{table}[h]
+\centering
+\caption{$d=3$ one-overlap off-diagonal channels.}
+\label{tab_d3_offdiag}
+\scriptsize
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{|l|l|c|c|l|l|}
+\hline
+$\alpha$ & $\beta$ & $\lambda$ & $\nu$ & $(\kappa_{\mathrm o},\phi^{(\mathrm o)})$ & $(\kappa_{\mathrm e},\phi^{(\mathrm e)})$ \\
+\hline
+(S,1,2) & (S,1,3) & $1$ & $1$ & $(A,2,3),\,-i$ & $(S,1,3),\,+1$ \\
+\hline
+(S,1,2) & (S,2,3) & $1$ & $1$ & $(A,1,3),\,-i$ & $(S,2,3),\,+1$ \\
+\hline
+(S,1,3) & (S,1,2) & $1$ & $1$ & $(A,2,3),\,+i$ & $(S,1,2),\,+1$ \\
+\hline
+(S,1,3) & (S,2,3) & $1$ & $1$ & $(A,1,2),\,-i$ & $(S,2,3),\,+1$ \\
+\hline
+(S,2,3) & (S,1,2) & $1$ & $1$ & $(A,1,3),\,+i$ & $(S,1,2),\,+1$ \\
+\hline
+(S,2,3) & (S,1,3) & $1$ & $1$ & $(A,1,2),\,+i$ & $(S,1,3),\,+1$ \\
+\hline
+(S,1,2) & (A,1,3) & $1$ & $1$ & $(S,2,3),\,+i$ & $(A,1,3),\,+1$ \\
+\hline
+(S,1,2) & (A,2,3) & $1$ & $1$ & $(S,1,3),\,+i$ & $(A,2,3),\,+1$ \\
+\hline
+(S,1,3) & (A,1,2) & $1$ & $1$ & $(S,2,3),\,+i$ & $(A,1,2),\,+1$ \\
+\hline
+(S,1,3) & (A,2,3) & $1$ & $1$ & $(S,1,2),\,-i$ & $(A,2,3),\,+1$ \\
+\hline
+(S,2,3) & (A,1,2) & $1$ & $1$ & $(S,1,3),\,-i$ & $(A,1,2),\,+1$ \\
+\hline
+(S,2,3) & (A,1,3) & $1$ & $1$ & $(S,1,2),\,-i$ & $(A,1,3),\,+1$ \\
+\hline
+(A,1,2) & (S,1,3) & $1$ & $1$ & $(S,2,3),\,-i$ & $(S,1,3),\,+1$ \\
+\hline
+(A,1,2) & (S,2,3) & $1$ & $1$ & $(S,1,3),\,+i$ & $(S,2,3),\,+1$ \\
+\hline
+(A,1,3) & (S,1,2) & $1$ & $1$ & $(S,2,3),\,-i$ & $(S,1,2),\,+1$ \\
+\hline
+(A,1,3) & (S,2,3) & $1$ & $1$ & $(S,1,2),\,+i$ & $(S,2,3),\,+1$ \\
+\hline
+(A,2,3) & (S,1,2) & $1$ & $1$ & $(S,1,3),\,-i$ & $(S,1,2),\,+1$ \\
+\hline
+(A,2,3) & (S,1,3) & $1$ & $1$ & $(S,1,2),\,+i$ & $(S,1,3),\,+1$ \\
+\hline
+(A,1,2) & (A,1,3) & $1$ & $1$ & $(A,2,3),\,-i$ & $(A,1,3),\,+1$ \\
+\hline
+(A,1,2) & (A,2,3) & $1$ & $1$ & $(A,1,3),\,+i$ & $(A,2,3),\,+1$ \\
+\hline
+(A,1,3) & (A,1,2) & $1$ & $1$ & $(A,2,3),\,+i$ & $(A,1,2),\,+1$ \\
+\hline
+(A,1,3) & (A,2,3) & $1$ & $1$ & $(A,1,2),\,-i$ & $(A,2,3),\,+1$ \\
+\hline
+(A,2,3) & (A,1,2) & $1$ & $1$ & $(A,1,3),\,-i$ & $(A,1,2),\,+1$ \\
+\hline
+(A,2,3) & (A,1,3) & $1$ & $1$ & $(A,1,2),\,+i$ & $(A,1,3),\,+1$ \\
+\hline
+\end{tabular}
+\end{table}
+
+% All pairs not listed commute: phi=0, lambda=nu=0 by convention.
