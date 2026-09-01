@@ -37,7 +37,7 @@ python3 sud_lookup.py -d 3 --print-latex
 python3 two_site_effective_vs_exact_check_d3.py
 ```
 
-Exact diagonalization and manuscript figures:
+Exact results and manuscript figures:
 
 ```
 cd qutrit-floquet-ed
