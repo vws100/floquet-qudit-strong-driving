@@ -12,7 +12,7 @@ numerical checks:
 |---|---|---|
 | [`Mathematica/`](Mathematica/) | su(*d*) S.A.D. generators, support map, and commutator lookup tables for general *d*; two-site *d* = 3 bond-error check of the effective Hamiltonian against the exact driven propagator | Wolfram Language |
 | [`Python/`](Python/) | independent Python ports of both Mathematica codes, cross-validated against the Mathematica output | Python 3 |
-| [`qutrit-floquet-ed/`](qutrit-floquet-ed/) | exact diagonalization of driven N-site qutrit chains: exact propagation vs. the lowest-order Floquet effective theory, with the scripts that regenerate the manuscript figures | Python 3 |
+| [`qutrit-floquet-ed/`](qutrit-floquet-ed/) | exact matrix representation of driven N-site qutrit chains: exact propagation vs. the lowest-order Floquet effective theory, with the scripts that regenerate the manuscript figures | Python 3 |
 
 Each directory has its own README with explicit run instructions.
 
