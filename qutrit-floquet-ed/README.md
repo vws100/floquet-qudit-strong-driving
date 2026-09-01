@@ -1,6 +1,6 @@
 # qutrit-floquet-ed
 
-Exact diagonalization of strongly driven qutrit chains, comparing exact
+Exact matrix represenation of strongly driven qutrit chains, comparing exact
 driven dynamics with the lowest-order Floquet effective theory of
 
 > R. Scott and V. W. Scarola, *Formalism for Floquet Engineering d-level Systems
