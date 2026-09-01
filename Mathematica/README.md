@@ -8,7 +8,7 @@ Two standalone Wolfram Language scripts. Both run in the notebook front end
 
 Builds, for a single input dimension *d* ≥ 2:
 
-1. the su(*d*) S.A.D. generator matrices (inputs S^{mn}, A^{mn}, H^{1n},
+1. the su(*d*) D.A.S. generator matrices (inputs S^{mn}, A^{mn}, H^{1n},
    then the output-only diagonals H^{mn});
 2. the support map supp(α);
 3. the fully expanded nested-commutator lookup tables in the convention
