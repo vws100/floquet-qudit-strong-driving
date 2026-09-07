@@ -3,6 +3,13 @@
 """
 sud_lookup.py -- general-d S.A.D. generator / support-map / lookup-table builder.
 
+Companion code for
+  R. Scott and V. W. Scarola, "Strong-Drive Floquet Engineering of
+  Interacting Qudits: From Finite-Duration Controls to Emergent
+  Symmetry," arXiv:2609.04309,
+  https://doi.org/10.48550/arXiv.2609.04309
+  (code archive: https://doi.org/10.5281/zenodo.22216913).
+
 Python port of sud_generator_general_d.wl.  All functionality of the Wolfram
 script is retained:
 

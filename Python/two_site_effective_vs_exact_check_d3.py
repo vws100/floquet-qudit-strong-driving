@@ -6,6 +6,13 @@
 # Python port of two_site_effective_vs_exact_check_d3.wl.
 # Requires: numpy, scipy.
 #
+# Companion code for
+#   R. Scott and V. W. Scarola, "Strong-Drive Floquet Engineering of
+#   Interacting Qudits: From Finite-Duration Controls to Emergent
+#   Symmetry," arXiv:2609.04309,
+#   https://doi.org/10.48550/arXiv.2609.04309
+#   (code archive: https://doi.org/10.5281/zenodo.22216913).
+#
 # The exact propagator exploits the piecewise-constant drive: the
 # time-ordered exponential factorizes exactly into ordinary matrix
 # exponentials over the constant-drive segments, so no truncation

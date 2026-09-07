@@ -231,3 +231,13 @@ exactly one `aAmpVals`/`fFracVals` pair (and the matching `JVals` block):
 
 Developed with Python 3.12, numpy 2.4, scipy 1.17; deterministic, no random
 number use.
+
+## Citation
+
+Companion code for
+
+> R. Scott and V. W. Scarola, *Strong-Drive Floquet Engineering of Interacting
+> Qudits: From Finite-Duration Controls to Emergent Symmetry*, arXiv:2609.04309,
+> [doi:10.48550/arXiv.2609.04309](https://doi.org/10.48550/arXiv.2609.04309).
+
+Repository archive: [doi:10.5281/zenodo.22216913](https://doi.org/10.5281/zenodo.22216913).
