@@ -3,8 +3,8 @@
 Code accompanying
 
 > R. Scott and V. W. Scarola, *Formalism for Floquet Engineering d-level Systems
-> using Strong Driving*. arxivXXX
-
+> using Strong Driving*. 	arXiv:2609.04309
+>[![arXiv](https://img.shields.io/badge/arXiv-2609.04309-b31b1b.svg)](https://arxiv.org/abs/2609.04309)
 The repository has three parts, mirroring the structure of the paper's
 numerical checks:
 
@@ -50,8 +50,9 @@ All codes are deterministic; no random numbers are used anywhere.
 
 ## Citation
 
-If you use this code, please cite the paper above and the Zenodo record for
-this repository (DOI badge will appear here once minted).
+If you use this code, please cite the paper metnioend above [![arXiv](https://img.shields.io/badge/arXiv-2609.04309-b31b1b.svg)](https://arxiv.org/abs/2609.04309) 
+and the Zenodo record for
+this repository [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22216914.svg)](oi.org/10.5281/zenodo.22216914).
 
 ## License
 
