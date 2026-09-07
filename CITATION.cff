@@ -1,20 +1,30 @@
 cff-version: 1.2.0
-message: "If you use this code, please cite the accompanying paper and the Zenodo repository."
-title: "floquet-qudit-strong-driving: code for 'Formalism for Floquet Engineering d-level Systems using Strong Driving'"
+message: "If you use this code, please cite the accompanying paper and this repository."
+title: "floquet-qudit-strong-driving: code for 'Strong-Drive Floquet Engineering of Interacting Qudits: From Finite-Duration Controls to Emergent Symmetry'"
 authors:
   - family-names: Scott
     given-names: Ryan
   - family-names: Scarola
     given-names: Vito W.
 license: MIT
-repository-code: "https://doi.org/10.5281/zenodo.22216913"
+repository-code: "https://github.com/scarola/floquet-qudit-strong-driving"
+doi: 10.5281/zenodo.22216913
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.22216913
+    description: "Zenodo archive of this repository"
+  - type: doi
+    value: 10.48550/arXiv.2609.04309
+    description: "arXiv preprint of the accompanying paper"
 preferred-citation:
   type: article
-  title: "Formalism for Floquet Engineering d-level Systems using Strong Driving"
+  title: "Strong-Drive Floquet Engineering of Interacting Qudits: From Finite-Duration Controls to Emergent Symmetry"
   authors:
     - family-names: Scott
       given-names: Ryan
     - family-names: Scarola
       given-names: Vito W.
-  journal: arXiv:2609.04309
+  journal: "arXiv:2609.04309"
+  doi: 10.48550/arXiv.2609.04309
+  url: "https://arxiv.org/abs/2609.04309"
   year: 2026

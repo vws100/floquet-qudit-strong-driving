@@ -2,9 +2,13 @@
 
 Code accompanying
 
-> R. Scott and V. W. Scarola, *Formalism for Floquet Engineering d-level Systems
-> using Strong Driving*. 	arXiv:2609.04309
->[![arXiv](https://img.shields.io/badge/arXiv-2609.04309-b31b1b.svg)](https://arxiv.org/abs/2609.04309)
+> R. Scott and V. W. Scarola, *Strong-Drive Floquet Engineering of Interacting
+> Qudits: From Finite-Duration Controls to Emergent Symmetry*, arXiv:2609.04309,
+> [doi:10.48550/arXiv.2609.04309](https://doi.org/10.48550/arXiv.2609.04309).
+
+[![arXiv](https://img.shields.io/badge/arXiv-2609.04309-b31b1b.svg)](https://arxiv.org/abs/2609.04309)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22216913.svg)](https://doi.org/10.5281/zenodo.22216913)
+
 The repository has three parts, mirroring the structure of the paper's
 numerical checks:
 
@@ -50,9 +54,12 @@ All codes are deterministic; no random numbers are used anywhere.
 
 ## Citation
 
-If you use this code, please cite the paper metnioend above [![arXiv](https://img.shields.io/badge/arXiv-2609.04309-b31b1b.svg)](https://arxiv.org/abs/2609.04309) 
-and the Zenodo record for
-this repository [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22216914.svg)](oi.org/10.5281/zenodo.22216914).
+If you use this code, please cite the paper mentioned above,
+[arXiv:2609.04309](https://arxiv.org/abs/2609.04309)
+([doi:10.48550/arXiv.2609.04309](https://doi.org/10.48550/arXiv.2609.04309)),
+and the Zenodo record for this repository,
+[doi:10.5281/zenodo.22216913](https://doi.org/10.5281/zenodo.22216913).
+Citation metadata is in [CITATION.cff](CITATION.cff).
 
 ## License
 
