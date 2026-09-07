@@ -8,7 +8,7 @@ Two standalone Wolfram Language scripts. Both run in the notebook front end
 
 Builds, for a single input dimension *d* ≥ 2:
 
-1. the su(*d*) D.A.S. generator matrices (inputs S^{mn}, A^{mn}, H^{1n},
+1. the su(*d*) S.A.D. generator matrices (inputs S^{mn}, A^{mn}, H^{1n},
    then the output-only diagonals H^{mn});
 2. the support map supp(α);
 3. the fully expanded nested-commutator lookup tables in the convention
@@ -75,3 +75,13 @@ A line-by-line Python port with identical structure, defaults, and output
 files is at `../Python/two_site_effective_vs_exact_check_d3.py`; the two
 agree to 11–12 significant figures on the scan quantities (see the Python
 README for the verification summary).
+
+## Citation
+
+Companion code for
+
+> R. Scott and V. W. Scarola, *Strong-Drive Floquet Engineering of Interacting
+> Qudits: From Finite-Duration Controls to Emergent Symmetry*, arXiv:2609.04309,
+> [doi:10.48550/arXiv.2609.04309](https://doi.org/10.48550/arXiv.2609.04309).
+
+Repository archive: [doi:10.5281/zenodo.22216913](https://doi.org/10.5281/zenodo.22216913).

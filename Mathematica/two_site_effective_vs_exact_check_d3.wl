@@ -6,6 +6,13 @@ ClearAll["Global`*"];
 (* Two-site d=3 check of Ueff vs the exact propagator for the SU(d)  *)
 (* square-pulse drive.                                              *)
 (*                                                                  *)
+(* Companion code for                                               *)
+(*   R. Scott and V. W. Scarola, "Strong-Drive Floquet Engineering  *)
+(*   of Interacting Qudits: From Finite-Duration Controls to        *)
+(*   Emergent Symmetry," arXiv:2609.04309,                          *)
+(*   https://doi.org/10.48550/arXiv.2609.04309                      *)
+(*   (code archive: https://doi.org/10.5281/zenodo.22216913).       *)
+(*                                                                  *)
 (* ================================================================ *)
 
 ndim = 3;
