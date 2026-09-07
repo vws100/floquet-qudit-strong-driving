@@ -1,10 +1,11 @@
 # qutrit-floquet-ed
 
-Exact matrix represenation of strongly driven qutrit chains, comparing exact
+Exact matrix representation of strongly driven qutrit chains, comparing exact
 driven dynamics with the lowest-order Floquet effective theory of
 
-> R. Scott and V. W. Scarola, *Formalism for Floquet Engineering d-level Systems
-> using Strong Driving*. arxivXXX
+> R. Scott and V. W. Scarola, *Strong-Drive Floquet Engineering of Interacting
+> Qudits: From Finite-Duration Controls to Emergent Symmetry*, arXiv:2609.04309,
+> [doi:10.48550/arXiv.2609.04309](https://doi.org/10.48550/arXiv.2609.04309).
 
 The code propagates an N-site qutrit chain under a global square-pulse drive
 (exactly, as an ordered product of segment exponentials) and under the
@@ -63,7 +64,11 @@ evolution, `state_err`, `strobo` flag. Load with `numpy.loadtxt`.
 
 ## Citation
 
-If you use this code, please cite the paper above.
+If you use this code, please cite the paper above,
+[arXiv:2609.04309](https://arxiv.org/abs/2609.04309)
+([doi:10.48550/arXiv.2609.04309](https://doi.org/10.48550/arXiv.2609.04309)),
+and the Zenodo record for this repository,
+[doi:10.5281/zenodo.22216913](https://doi.org/10.5281/zenodo.22216913).
 
 ## License
 

@@ -7,8 +7,11 @@ Exact driven dynamics vs. lowest-order Floquet effective theory for an
 N-site qutrit (d=3) chain under strong, global, square-pulse driving.
 
 Companion code for
-  R. Scott and V. W. Scarola, "Formalism for Floquet Engineering d-level
-  Systems using Strong Driving" arxivXXX.
+  R. Scott and V. W. Scarola, "Strong-Drive Floquet Engineering of
+  Interacting Qudits: From Finite-Duration Controls to Emergent
+  Symmetry," arXiv:2609.04309,
+  https://doi.org/10.48550/arXiv.2609.04309
+  (code archive: https://doi.org/10.5281/zenodo.22216913).
 Section and equation labels below refer to that manuscript.
 
 Physics
